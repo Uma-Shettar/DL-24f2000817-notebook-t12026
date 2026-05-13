@@ -6,11 +6,11 @@ A multi-model machine learning project for classifying music genres from **noisy
  
 ## Problem Statement
  
-Given audio mashups constructed by mixing stems (drums, vocals, bass, other) from songs of a single genre and layering ESC-50 environmental noise, predict the genre of each mashup. The task is a 10-class classification over:
+Classify the music genre of noisy audio mashups across 10 genres: Blues, Classical, Country, Disco, Hip-Hop, Jazz, Metal, Pop, Reggae, and Rock.
  
-> Blues · Classical · Country · Disco · Hip-Hop · Jazz · Metal · Pop · Reggae · Rock
+The training data consists of clean, separated instrument stems (drums, vocals, bass, others). The test data, however, is composed of synthetic mashups — stems from different songs of the same genre mixed together, tempo-adjusted for synchronisation, and overlaid with random environmental noise.
  
-The challenge lies in the deliberate "messiness": stems from different songs of the same genre are mixed together, and random ambient noise is overlaid at varying intensities.
+Since the two distributions don't match, **participants must synthetically generate their own training data** by creating similar mashups from the provided stems, simulating the noise and mixing conditions of the test set.
  
 ---
  
