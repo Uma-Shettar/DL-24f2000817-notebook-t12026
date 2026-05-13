@@ -4,20 +4,6 @@ A multi-model machine learning project for classifying music genres from **noisy
  
 ---
  
-## 📋 Table of Contents
- 
-- [Problem Statement](#problem-statement)
-- [Dataset](#dataset)
-- [Data Pipeline](#data-pipeline)
-- [Models](#models)
-- [Feature Engineering](#feature-engineering)
-- [Project Structure](#project-structure)
-- [Setup & Requirements](#setup--requirements)
-- [Usage](#usage)
-- [Experiment Tracking](#experiment-tracking)
-- [Results](#results)
----
- 
 ## Problem Statement
  
 Given audio mashups constructed by mixing stems (drums, vocals, bass, other) from songs of a single genre and layering ESC-50 environmental noise, predict the genre of each mashup. The task is a 10-class classification over:
